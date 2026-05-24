@@ -20,7 +20,6 @@ spec:
     spec:
       containers:
       - name: ejemplo-kaniko
-
         image: marcelillo/ejemplo-kaniko:v1
 
         ports:
@@ -43,4 +42,4 @@ spec:
   - port: 80
     targetPort: 5000
 
-  type: LoadBalancer
+  type: NodePort
